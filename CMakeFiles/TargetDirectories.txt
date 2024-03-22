@@ -1,3 +1,0 @@
-/home/lu/Documentos/FACU/setup-environment-LuDorado/CMakeFiles/FirstProjectInCMake.dir
-/home/lu/Documentos/FACU/setup-environment-LuDorado/CMakeFiles/edit_cache.dir
-/home/lu/Documentos/FACU/setup-environment-LuDorado/CMakeFiles/rebuild_cache.dir
