@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int static_lib_function(char *msg)
+int static_lib_function(char* msg)
 {
     printf("Hi! I'm static lib that receives '%s',and return '%d'\n", msg, strlen(msg));
     return strlen(msg);
