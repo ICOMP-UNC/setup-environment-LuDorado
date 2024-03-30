@@ -52,7 +52,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC lib/libsta/include)
 # Link libraries
 target_link_libraries(${PROJECT_NAME} StatiCLib DynamiCLib)
 
-# Add subdirectory of tests
+# Add subdirectory of tests. Passed when executing CMAKE
 if(RUN_TESTS EQUAL 1 OR RUN_COVERAGE EQUAL 1)
     add_subdirectory(tests)
 endif()

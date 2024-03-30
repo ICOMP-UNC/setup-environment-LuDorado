@@ -7,10 +7,10 @@ void test_logic_add(void)
     TEST_ASSERT_NOT_EQUAL(5, add(2, 2));
 }
 
-void test_logic_subtract(void)
+void test_logic_substract(void)
 {
-    TEST_ASSERT_EQUAL(5, subtract(10, 5));
-    TEST_ASSERT_NOT_EQUAL(4, subtract(10, 5));
+    TEST_ASSERT_EQUAL(5, substract(10, 5));
+    TEST_ASSERT_NOT_EQUAL(4, substract(10, 5));
 }
 
 void test_logic_multiply(void)
@@ -25,12 +25,12 @@ void test_logic_divide(void)
     TEST_ASSERT_NOT_EQUAL(-1.0, divide(10, 0));
 }
 
-#Function to be executed before a test
+// Function to be executed before a test
 void setUp(void)
 {
 }
 
-#Function to be executed after a test
+// Function to be executed after a test
 void tearDown(void)
 {
 }
